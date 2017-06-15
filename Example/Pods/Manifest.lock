@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - VerifyC (0.1.0):
+    - VerifyC/Model (= 0.1.0)
+    - VerifyC/View (= 0.1.0)
+    - VerifyC/ViewModel (= 0.1.0)
+  - VerifyC/Model (0.1.0):
+    - VerifyC/View
+    - VerifyC/ViewModel
+  - VerifyC/View (0.1.0)
+  - VerifyC/ViewModel (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - VerifyC (from `../`)
+
+EXTERNAL SOURCES:
+  VerifyC:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  VerifyC: 5820b1b04f77e57bd77083097cfb27991dd9e094
+
+PODFILE CHECKSUM: 4eb82e3d5415d574351e4a36afd0b1b0b0d0acaf
+
+COCOAPODS: 1.2.1
