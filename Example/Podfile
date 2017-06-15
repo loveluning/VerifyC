@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VerifyC_Example' do
+  pod 'VerifyC', :path => '../'
+
+  target 'VerifyC_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
